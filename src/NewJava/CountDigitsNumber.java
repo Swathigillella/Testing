@@ -1,5 +1,5 @@
 package NewJava;
-
+//added a new comment
 public class CountDigitsNumber {
 
 	public static void main(String[] args) {
