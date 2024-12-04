@@ -9,10 +9,10 @@ public class SwappingNum {
 		temp=a;
 		a=b;
 		b=temp;
-		
+
 		System.out.println(a);
 		System.out.println(b);
-		
+
 	}
 
 }

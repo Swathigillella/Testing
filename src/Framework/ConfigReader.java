@@ -11,16 +11,16 @@ public class ConfigReader{
 			FileInputStream fis=new FileInputStream("C:\\Users\\swathi\\eclipse-workspace\\Selenium New Workspace\\JavaPrograms\\src\\Framework\\config.PROPERTIES");
 			properties=new Properties();
 			properties.load(fis);
-		
+
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-		
+
 	}
 	public static String getProperty(String key) {
 		return properties.getProperty(key);
-		
+
 	}
-	
+
 }

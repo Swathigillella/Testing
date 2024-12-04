@@ -9,12 +9,12 @@ public class ReverseNumber {
 //			rev=rev*10+num%10;
 //			num=num/10;
 //					}
-//		
+//
 //		System.out.println(rev);
 		//Method 2:
    StringBuffer sb=new StringBuffer(String.valueOf(num));
    System.out.println(sb.reverse());
-         
+
          StringBuilder sb2=new StringBuilder(String.valueOf(num));
          //sb2.append(num);
          System.out.println(sb2.reverse());

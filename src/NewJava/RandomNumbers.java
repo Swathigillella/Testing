@@ -8,7 +8,7 @@ public class RandomNumbers {
 		Random ra=new Random();
 		int a=ra.nextInt(30);
 	System.out.println(a);
-		
+
 
 	}
 
