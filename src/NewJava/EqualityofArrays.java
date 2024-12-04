@@ -1,6 +1,6 @@
 package NewJava;
 
-//new comments
+//new commentskkk
 public class EqualityofArrays {
 
 	public static void main(String[] args) {
